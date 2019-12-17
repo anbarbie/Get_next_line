@@ -6,7 +6,7 @@
 /*   By: antbarbi <antbarbi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/10 17:41:38 by antbarbi          #+#    #+#             */
-/*   Updated: 2019/12/10 18:28:29 by antbarbi         ###   ########.fr       */
+/*   Updated: 2019/12/17 01:01:27 by antbarbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,10 @@
 # include <string.h>
 
 int		get_next_line(int fd, char **line);
+size_t	ft_strlen(const char *str);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char		*ft_strndup(char *s);
+char	*ft_strjoin(const char *s1, const char *s2);
+char		*ft_strnchr(char *s, int c, int n);
 
 #endif
