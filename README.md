@@ -10,5 +10,5 @@ The functions returns the line that was read from the file descriptor. If there 
 ## Compilation
 To compile the code, add the option -D BUFFER_SIZE=n to define the buffer size for read(). The value of BUFFER_SIZE can be modified to test different buffer sizes. Here is an example compilation command with a buffer size of 42:
 ```shell
-cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 <files>.c
+cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c main.c
 ```
